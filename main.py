@@ -14,9 +14,6 @@ screen.listen()  # call the listen function
 # screen.exitonclick()
 
 
-"""Challenge 1: Make an Etch a sketch app"""
-
-
 def move_forward():
     return tim.forward(10)
 
@@ -63,4 +60,5 @@ screen.onkey(key="s", fun=move_backward)
 screen.onkey(key="q", fun=turn_left)
 screen.onkey(key="p", fun=turn_right)
 screen.onkey(key="c", fun=clear_drawing)
+
 screen.exitonclick()
